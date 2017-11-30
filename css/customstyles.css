@@ -12,24 +12,27 @@ header{
 }
 header h1{
      font-family: 'Oswald', sans-serif;
+     color: #333;
 }
-li{
-    list-style-type: none;
-    color: white;
-    font-size: 1.4em;
-    background: rgb(218,8, 8);
+
 }
 figure{
-    max-width: inherit;
+    text-align: center;
+    max-width: 1280px;
+    padding: 50px;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
 }
 figure a{
-    padding: 2px;
-    border: 3px solid rgb(218,8,8);
-    max-width: 200px;    
+    
+    border: 2px solid rgb(218,8,8);
+    max-width: 300px; 
+    background-color: whitesmoke;
 }
 footer{
     padding: 10vh;
@@ -40,15 +43,38 @@ footer{
 .uk-card-body{
     padding:0px;
 }
-
-/*lightbox styling*/
-.lg-thumb-item{
+.uk-card-title{
+    font-size: 1.3em;
+    text-align: center;
     color: rgb(218,8, 8);
 }
+a:-webkit-any-link{
+    text-decoration: none;
+}
+
+/*lightbox styling*/
+
 .lg-toolbar{
     background-color: whitesmoke;
 }
 
-.lg-toolbar .lg-icon{
+#lg-counter,
+.lg-outer .lg-toogle-thumb,
+.lg-actions .lg-next:before,
+.lg-actions .lg-prev:after,
+.lg-toolbar .lg-icon,
+.lg-backdrop,
+.lg-thumb-item{
     color: rgb(218,8, 8);
+}
+.lg-toolbar .lg-download {
+    display: none;
+}
+
+.lg-toogle-thumb lg-icon{
+    
+}
+
+.lg-outer .lg-toogle-thumb{
+    color: rgb(218,8,8);
 }
