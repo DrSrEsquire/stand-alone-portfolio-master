@@ -1,6 +1,7 @@
 /*html styling*/
 body{
-    max-width: 1280px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 li{
     list-style-type: none;
@@ -9,12 +10,15 @@ li{
     background: rgb(218,8, 8);
 }
 figure{
+    max-width: inherit;
     position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 figure a{
-   min-width: 200px;
+   padding: 2px;
+    
 }
 
 /*lightbox styling*/
