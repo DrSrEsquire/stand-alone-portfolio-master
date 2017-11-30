@@ -31,7 +31,7 @@ figure{
 figure a{
     
     border: 2px solid rgb(218,8,8);
-    max-width: 300px; 
+    max-width: 256px; 
     background-color: whitesmoke;
 }
 footer{
