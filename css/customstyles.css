@@ -1,0 +1,30 @@
+/*html styling*/
+body{
+    max-width: 1280px;
+}
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.4em;
+    background: rgb(218,8, 8);
+}
+figure{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+figure a{
+   min-width: 200px;
+}
+
+/*lightbox styling*/
+.lg-thumb-item{
+    color: rgb(218,8, 8);
+}
+.lg-toolbar{
+    background-color: white;
+}
+
+.lg-toolbar .lg-icon{
+    color: rgb(218,8, 8);
+}
