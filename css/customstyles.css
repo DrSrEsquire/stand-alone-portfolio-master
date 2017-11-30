@@ -17,7 +17,8 @@ figure{
     flex-wrap: wrap;
 }
 figure a{
-   padding: 2px;
+    border: 3px solid rgb(218,8,8);
+    max-width: 200px;    
     
 }
 
